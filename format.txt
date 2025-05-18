@@ -1,0 +1,12 @@
+{
+	"version": {version},
+	"title": "{title}",
+	"description": "{description}",
+	"size": {size},
+	"difficulty": {difficulty},
+	"colors": {colors},
+	"humans": {humans},
+	"computers": {computers},
+	"victoryCondition": {victoryCondition},
+	"lossCondition": {lossCondition}
+}
