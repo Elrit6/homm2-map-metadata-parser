@@ -170,7 +170,6 @@ void displayHMapInfo(const HMapInfo& hMapInfo, const std::string& filePath) {
 	buffer << formatFile.rdbuf();
 	std::string content = buffer.str();
 
-	std::cout << filePath << std::endl;
 	replaceProperty(content, "{version}", std::to_string(hMapInfo.version));
 	replaceProperty(content, "{difficulty}", std::to_string(hMapInfo.difficulty));
 	replaceProperty(content, "{size}", std::to_string(hMapInfo.size));
