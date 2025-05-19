@@ -181,6 +181,8 @@ void displayHMapInfo(const HMapInfo& hMapInfo, const std::string& filePath) {
 	replaceProperty(content, "{title}", hMapInfo.title);
 	replaceProperty(content, "{description}", hMapInfo.description);
 	std::cout << content << std::endl;
+
+	formatFile.close();
 }
 
 int main(int argc, char const *argv[]) {
